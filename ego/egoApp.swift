@@ -11,7 +11,7 @@ import SwiftUI
 struct egoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MotherView()
         }
     }
 }

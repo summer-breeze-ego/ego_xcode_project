@@ -8,17 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		DEF2C4CE29428B8C00EC2BA2 /* egoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF2C4CD29428B8C00EC2BA2 /* egoApp.swift */; };
-		DEF2C4D029428B8C00EC2BA2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF2C4CF29428B8C00EC2BA2 /* ContentView.swift */; };
+		DEF2C4D029428B8C00EC2BA2 /* MotherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF2C4CF29428B8C00EC2BA2 /* MotherView.swift */; };
 		DEF2C4D229428B8E00EC2BA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEF2C4D129428B8E00EC2BA2 /* Assets.xcassets */; };
 		DEF2C4D529428B8E00EC2BA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEF2C4D429428B8E00EC2BA2 /* Preview Assets.xcassets */; };
+		DEF2C4DD29428BC000EC2BA2 /* ScoreSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF2C4DC29428BC000EC2BA2 /* ScoreSystem.swift */; };
+		DEF2C4DF29428C4A00EC2BA2 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF2C4DE29428C4A00EC2BA2 /* ProfileView.swift */; };
+		DEF2C4E12946BDA600EC2BA2 /* extraStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF2C4E02946BDA600EC2BA2 /* extraStructures.swift */; };
+		DEF2C4E32946BE0600EC2BA2 /* MorningSS.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF2C4E22946BE0600EC2BA2 /* MorningSS.swift */; };
+		DEF2C4E62946BE7600EC2BA2 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF2C4E52946BE7600EC2BA2 /* ViewRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DEF2C4CA29428B8C00EC2BA2 /* ego.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ego.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEF2C4CD29428B8C00EC2BA2 /* egoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = egoApp.swift; sourceTree = "<group>"; };
-		DEF2C4CF29428B8C00EC2BA2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DEF2C4CF29428B8C00EC2BA2 /* MotherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotherView.swift; sourceTree = "<group>"; };
 		DEF2C4D129428B8E00EC2BA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEF2C4D429428B8E00EC2BA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DEF2C4DC29428BC000EC2BA2 /* ScoreSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreSystem.swift; sourceTree = "<group>"; };
+		DEF2C4DE29428C4A00EC2BA2 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		DEF2C4E02946BDA600EC2BA2 /* extraStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extraStructures.swift; sourceTree = "<group>"; };
+		DEF2C4E22946BE0600EC2BA2 /* MorningSS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorningSS.swift; sourceTree = "<group>"; };
+		DEF2C4E52946BE7600EC2BA2 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		DEF2C4E92946CC8600EC2BA2 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +46,7 @@
 		DEF2C4C129428B8C00EC2BA2 = {
 			isa = PBXGroup;
 			children = (
+				DEF2C4E92946CC8600EC2BA2 /* Readme.md */,
 				DEF2C4CC29428B8C00EC2BA2 /* ego */,
 				DEF2C4CB29428B8C00EC2BA2 /* Products */,
 			);
@@ -51,8 +63,11 @@
 		DEF2C4CC29428B8C00EC2BA2 /* ego */ = {
 			isa = PBXGroup;
 			children = (
+				DEF2C4E42946BE3100EC2BA2 /* ScoreSystems */,
+				DEF2C4DB29428BA600EC2BA2 /* Views */,
 				DEF2C4CD29428B8C00EC2BA2 /* egoApp.swift */,
-				DEF2C4CF29428B8C00EC2BA2 /* ContentView.swift */,
+				DEF2C4CF29428B8C00EC2BA2 /* MotherView.swift */,
+				DEF2C4E02946BDA600EC2BA2 /* extraStructures.swift */,
 				DEF2C4D129428B8E00EC2BA2 /* Assets.xcassets */,
 				DEF2C4D329428B8E00EC2BA2 /* Preview Content */,
 			);
@@ -65,6 +80,24 @@
 				DEF2C4D429428B8E00EC2BA2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DEF2C4DB29428BA600EC2BA2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DEF2C4DC29428BC000EC2BA2 /* ScoreSystem.swift */,
+				DEF2C4DE29428C4A00EC2BA2 /* ProfileView.swift */,
+				DEF2C4E52946BE7600EC2BA2 /* ViewRouter.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DEF2C4E42946BE3100EC2BA2 /* ScoreSystems */ = {
+			isa = PBXGroup;
+			children = (
+				DEF2C4E22946BE0600EC2BA2 /* MorningSS.swift */,
+			);
+			path = ScoreSystems;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +170,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEF2C4D029428B8C00EC2BA2 /* ContentView.swift in Sources */,
+				DEF2C4D029428B8C00EC2BA2 /* MotherView.swift in Sources */,
+				DEF2C4E62946BE7600EC2BA2 /* ViewRouter.swift in Sources */,
+				DEF2C4DD29428BC000EC2BA2 /* ScoreSystem.swift in Sources */,
+				DEF2C4E32946BE0600EC2BA2 /* MorningSS.swift in Sources */,
+				DEF2C4E12946BDA600EC2BA2 /* extraStructures.swift in Sources */,
+				DEF2C4DF29428C4A00EC2BA2 /* ProfileView.swift in Sources */,
 				DEF2C4CE29428B8C00EC2BA2 /* egoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
