@@ -30,7 +30,6 @@
 		DEF2C4E22946BE0600EC2BA2 /* MorningSS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorningSS.swift; sourceTree = "<group>"; };
 		DEF2C4E52946BE7600EC2BA2 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
 		DEF2C4E92946CC8600EC2BA2 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
-		DEF2C4EA2946D60900EC2BA2 /* cock file.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "cock file.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +46,6 @@
 		DEF2C4C129428B8C00EC2BA2 = {
 			isa = PBXGroup;
 			children = (
-				DEF2C4EA2946D60900EC2BA2 /* cock file.swift */,
 				DEF2C4E92946CC8600EC2BA2 /* Readme.md */,
 				DEF2C4CC29428B8C00EC2BA2 /* ego */,
 				DEF2C4CB29428B8C00EC2BA2 /* Products */,
