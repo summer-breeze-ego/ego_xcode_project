@@ -16,6 +16,7 @@ struct MotherView: View {
             ProfileView()
                 .tabItem() {
                     Text("P View")
+                        
                 }
             
             // 2nd tab item - the score system

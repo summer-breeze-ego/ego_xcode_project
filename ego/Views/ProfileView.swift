@@ -17,8 +17,10 @@ struct ProfileView: View {
             
             Spacer()
             
+            Spacer()
+            
             // Header for Profile page
-            Text("Profile").font(.title)
+            Text("PROFILE").font(.largeTitle).padding(.horizontal, 10.0).border(/*@START_MENU_TOKEN@*/Color.black/*@END_MENU_TOKEN@*/, width: /*@START_MENU_TOKEN@*/2/*@END_MENU_TOKEN@*/)
             
             Spacer()
             
@@ -26,31 +28,27 @@ struct ProfileView: View {
             Text(username)
             
             Spacer()
+                
+            Spacer()
             
-            // vertical stack of edit and back buttons
-            VStack {
-                
-                Spacer()
-                
-                Button (
-                    action: {
-                        // insert action
-                    }
-                ) {
-                    ProfileEditButtonContent()
-                    
+            Button (
+                action: {
+                    // insert action
                 }
+            ) {
+                ProfileEditButtonContent()
                 
-                Button (
-                    action: {
-                        // insert action
-                    }
-                ) {
-                    ProfileBackButtonContent()
-                }
             }
             
-            Spacer()
+            Button (
+                action: {
+                    // insert action
+                }
+            ) {
+                ProfileBackButtonContent()
+            }
+            
+            
         }
     }
 }
